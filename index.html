@@ -294,12 +294,14 @@
           <h2 class="text-gray-900 text-3xl font-bold tracking-tight sm:text-4xl">Contact Us</h2>
           <p class="text-gray-700 mt-2 text-lg leading-8">Got questions? We're here to help! Reach out to us today.</p>
         </div>
-        <form class="mx-auto mt-16 max-w-4xl sm:mt-20">
+        <form class="mx-auto mt-16 max-w-4xl sm:mt-20" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="809f6645-4668-42ac-bf9b-3c5a62d78a60">
           <div class="wrapper grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div class="grid grid-cols-1 gap-x-8 gap-y-6">
               <div class="field"><label for="name" class="text-gray-900 block text-sm font-semibold leading-6">Name
                   <span class="text-red-600">*</span></label>
-                <div class="mt-2.5"><input aria-label="Name" type="text" name="name" required="" aria-required="true"
+                <div class="mt-2.5">
+                  <input aria-label="Name" type="text" name="name" required="" aria-required="true"
                     autocomplete="given-name"
                     class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6">
                 </div>
@@ -338,14 +340,13 @@
               </div>
             </div>
           </div> <!---->
-          <div class="mt-10"><input type="hidden" name="hidden" value=""> <button type="submit"
+          <div class="mt-10">
+            <input type="hidden" name="hidden" value="">
+            <button type="submit"
               class="block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-              style="background-color: rgb(90, 200, 250); color: rgb(255, 255, 255);">Let's Talk</button></div>
+              style="background-color: rgb(90, 200, 250); color: rgb(255, 255, 255);">Let's Talk</button>
+            </div>
         </form>
-
-        <div class="mx-auto mt-16 max-w-4xl sm:mt-20">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSen-S3VG60DapN3LlBOLcM4XM_zz-SWi6bkaMC1Oz5uu4pePw/viewform?embedded=true" width="640" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
       </div>
     </div>
     <div><a id="basic-footer-0"></a>
@@ -391,7 +392,7 @@
             <p class="text-gray-300 text-xs leading-5">© SMKlog 2024. All rights reserved. Powered by <a
                 href="https://github.com/eblooo/" target="_blank" class="underline"
                 aria-label="Visit eblooo in new tab.">eblooo</a>.
-              version: 0.0.0-manual-02</p>
+              version: 0.0.0-manual-03</p>
           </div>
         </div>
       </footer>
