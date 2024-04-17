@@ -1,0 +1,25 @@
+.text-brand-primary {
+    color: #5AC8FA;
+  }
+
+  .bg-brand-primary {
+    background-color: #5AC8FA;
+  }
+
+
+  .text-brand-secondary {
+    color: #00ba6b;
+  }
+
+  .bg-brand-secondary {
+    background-color: #00ba6b;
+  }
+
+
+  .text-brand-accent {
+    color: #EAEAEA;
+  }
+
+  .bg-brand-accent {
+    background-color: #EAEAEA;
+  }
